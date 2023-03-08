@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav {
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+  }
+  
+  .center img {
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  li {
+    margin: 0px 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  i {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 15%;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+.card1-img{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+
+    
+}
+
+main > .card1-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+ 
+
+
+
+
+
+
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .company {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company span {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .company-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .company-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right span {
+    margin-right: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+  }
+  
