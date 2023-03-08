@@ -82,7 +82,93 @@ main > .card1-img{
  
 
 
+.image1 {
+  height: 100%;
+  position: relative;
+  
+}
 
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image2:hover {
+  opacity: 0;
+
+}
+
+.card {
+  position: relative;
+  margin-bottom: 4rem;
+  height: 400px;
+}
+
+.row1-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 8rem auto 0;
+  max-width: 1000px;
+}
+
+.row2-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem auto 0;
+  max-width: 1000px;
+}
+
+.discount {
+  position: absolute;
+  color: white;
+  background-color: red;
+}
+
+.discount, .eco {
+  padding: .2rem;
+  bottom: 6rem;
+  font-size: 0.8rem;
+}
+
+.eco {
+  position: absolute;
+  left: 2.3rem;
+  padding: .2rem;
+  color: white;
+  background-color: green;
+}
+
+
+.heart {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  background-color: white;
+  padding: .5rem;
+}
+
+.heart:hover {
+  color:red;
+}
+
+.brand {
+  color: black;
+}
+
+.productname {
+  font-weight: bold;            
+}
+
+.price {
+  display: inline;
+  color: red;
+}
+
+.discountedprice {
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
 
 
 
